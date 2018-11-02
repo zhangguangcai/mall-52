@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   <h1>我叫章光彩</h1>
+  
     <router-view/>
   </div>
 </template>
@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style>
-
+  #app {
+          height: 100%;
+  }
 </style>
