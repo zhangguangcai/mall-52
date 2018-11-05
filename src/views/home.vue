@@ -15,13 +15,13 @@
     </el-header>
     <el-container>
         <el-aside class="aside" width="200px">
-            <el-menu default-active="1" class="el-menu-vertical-demo" :unique-opened="true" :router="true">
+            <el-menu default-active="2-1" class="menu" :unique-opened="true" :router="true">
                 <el-submenu index="/users">
                     <template slot="title">
                         <i class="el-icon-location"></i>
                         <span>用户管理</span>
                     </template>
-                    <el-menu-item index="1-1">
+                    <el-menu-item index="/user">
                         <i class="el-icon-bell"></i>
                         用户列表</el-menu-item>
 
